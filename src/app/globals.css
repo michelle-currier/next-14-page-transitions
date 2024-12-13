@@ -15,19 +15,18 @@ body {
   filter: blur(10px);
 }
 
-img {
-  margin: -1px -1px 0px 0px;
+img:hover {
+  margin: 0px -2px 0px 0px;
 }
 /* the mouse */
-html, body, *, button, a, input, img
-          .disabled, a:disabled, input:disabled {
-            cursor: url('/blackcircle.svg'), auto;
-          }
+html, body, *, button, a, input, img, .disabled, a:disabled, input:disabled {
+  cursor: url('/blackcircle.svg'), auto;
+}
 
-          button:hover, a:hover, input:hover, .hover:hover {
-            cursor: url('/whitecircle.svg'), auto;
-          }
+button:hover, a:hover, input:hover, .hover:hover {
+  cursor: url('/whitecircle.svg'), auto;
+}
 
-          button:focus, a:focus, input:focus, .focus:focus, img:hover {
-            cursor: url('/redcircle.svg'), auto;
-          }
+button:focus, a:focus, input:focus, .focus:focus, img:hover {
+  cursor: url('/redcircle.svg'), auto;
+}
