@@ -3,7 +3,7 @@ import { TransitionLink } from "../utils/TransitionLink";
 
 export const FlipNav = () => {
   return (
-    <nav className="p-4 flex items-center justify-between relative">
+    <nav className="p-4 flex items-center justify-between relative w-full max-w-4xl">
       <NavLeft />
       <button className="px-4 py-2 bg-gradient-to-r from-violet-600 to-indigo-600 text-white font-medium rounded-md whitespace-nowrap">
         Sign in
